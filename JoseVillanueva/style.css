@@ -1,0 +1,133 @@
+
+
+/* --- YOUR CODE STARTS HERE --- */
+#base {
+  display: flex;
+  flex-direction:column;
+  border: 1px solid grey;
+  width:359px;
+  height: 622px;
+  position: center;
+  margin-left: 200px;
+  font-family:"Roboto",sans-serif;
+  font-size: 14px;
+  color: grey;
+
+}
+
+
+.top-bar{
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  width:358px;
+  padding-top: 10px;
+  padding-bottom: 19px;
+  text-indent: 5%;
+  width: 100%;
+  line-height: 10px;
+  background-color: #fafafa;
+  font-weight: bold;
+  height: 100%;
+  border: 3px;
+  border-color:grey;
+}
+.profile__header{
+  display: flex;
+  margin:  10px;
+  column-count: 3;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+.profile__avatar{
+  /* display: flex; */
+  width: 40px;
+  border-radius: 50%;
+}
+.profile__user-info{
+
+  font-family: inherit;
+  color: grey;
+  /* height: 50px; */
+  font-size: 10px;
+  padding: 10px;
+  text-align:  left;
+}
+
+.photo-attributes{
+  /* margin-left: 5px; */
+  padding: 10px 2px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  width: 359px;
+}
+.photo-attributes span{
+  width: 10%;
+  padding-right: 1px;
+  font-size: 21px;
+  font-weight: bold;
+}
+#likes{
+  margin-top: 5px;
+  font-weight: bold;
+  margin-left: 10px;
+  text-align: left;
+}
+#caption{
+  width:350px;
+  /* padding-top:3px; */
+  padding-left: 9px;
+  text-align: left;
+  /* padding-bottom: 25px; */
+  /* height:  50%; */
+}
+.profile_name{
+  font-weight: bold;
+}
+
+
+.bottom-bar {
+    width: 357px;
+    background-color: #fafafa;
+    /* overflow: auto; */
+    height: 100%;
+    /* position: fixed; */
+    /* bottom: 0; */
+    z-index: 2;
+}
+
+.bottom-bar span {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    color:#707070;
+    font-size: 26px;
+}
+
+#t {
+  width: 80%;
+  font-size: 1.1em;
+  padding-top: 10px;
+}
+#location{
+  text-align: left;
+}
+#username{
+  text-align: left;
+  font-size:1.3em;
+  font-weight: bold;
+}
+.arrow{
+  font-size: 10px;
+}
+
+.dots{
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: right;
+  margin-left: 55%;}
+/* --- YOUR CODE ENDS HERE --- */
